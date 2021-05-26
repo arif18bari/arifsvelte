@@ -1,1 +1,4 @@
-<p>My Age is 40</p>
+<script>
+let age = 130;
+</script>
+<p>My Age is {age}</p>
