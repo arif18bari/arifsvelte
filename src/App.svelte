@@ -1,11 +1,13 @@
-<script>
-	import Age from "../src/components/age.svelte"
-	export let name;
+<script> 
+import HowTo from "./components/HowTo.svelte";
+import Timer from "./components/Timer.svelte";
+	 
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-    <Age/>
+	<h1>Hand Washing App</h1>
+    <Timer/>
+	<HowTo/>
 </main>
 
 <style>
